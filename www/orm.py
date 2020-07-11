@@ -32,3 +32,4 @@ def select(sql, args, size=None):
 		yield from cur.close()
 		logging.info('rows returned: %s' % len(rs))
 		return rs
+		
